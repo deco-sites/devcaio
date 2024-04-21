@@ -1,7 +1,7 @@
-import { Temperature } from "apps/weather/loaders/temperature.ts";
+// import { Temperature } from "apps/weather/loaders/temperature.ts";
 
 type Props = {
-  celcius: Temperature;
+  celcius: string;
 };
 
 export default function ({ celcius }: Props) {
