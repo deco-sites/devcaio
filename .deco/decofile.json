@@ -1588,12 +1588,12 @@
     },
     "logo": {
       "alt": "Glamour logo by deco",
-      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/986b61d4-3847-4867-93c8-b550cb459cc7",
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7788/60de7ab3-ed3c-4035-9b89-f6b456258635",
       "width": 100,
       "height": 16
     },
     "alerts": [
-      "Use this template to create your store at deco.cx"
+      "DECO 2.0"
     ],
     "navItems": {
       "__resolveType": "navbar"
@@ -2584,116 +2584,17 @@
   "navbar": {
     "items": [
       {
-        "url": "/feminino",
-        "name": "Feminino",
+        "url": "/quem-somos",
         "@type": "SiteNavigationElement",
-        "image": [
-          {
-            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7733d479-0fd1-4f33-bed9-6f9e170655d6",
-            "@type": "ImageObject"
-          }
-        ],
-        "children": [
-          {
-            "url": "/feminino/saias",
-            "name": "Novidades",
-            "@type": "SiteNavigationElement",
-            "children": [
-              {
-                "url": "/feminino/vestidos",
-                "name": "Mais vendidos",
-                "@type": "SiteNavigationElement"
-              },
-              {
-                "url": "/feminino/vestidos",
-                "name": "Parcerias",
-                "@type": "SiteNavigationElement"
-              }
-            ]
-          }
-        ]
+        "image": [],
+        "children": [],
+        "name": "Quem Somos"
       },
       {
-        "url": "/masculino",
-        "name": "Masculino",
-        "@type": "SiteNavigationElement",
-        "image": [
-          {
-            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/575c3b0f-1a2e-4ecb-aaad-532671dc553d",
-            "@type": "ImageObject"
-          }
-        ],
-        "children": [
-          {
-            "url": "/masculino",
-            "name": "Novidades",
-            "@type": "SiteNavigationElement",
-            "children": [
-              {
-                "url": "/masculino",
-                "name": "Mais vendidos",
-                "@type": "SiteNavigationElement"
-              },
-              {
-                "url": "/masculino",
-                "name": "Parcerias",
-                "@type": "SiteNavigationElement"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "url": "/sale",
-        "name": "Sale",
-        "@type": "SiteNavigationElement",
-        "image": [
-          {
-            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5e9310c0-c725-4643-ade3-f92a505bd1d6",
-            "@type": "ImageObject"
-          }
-        ],
-        "children": [
-          {
-            "url": "/feminino",
-            "name": "Feminino",
-            "@type": "SiteNavigationElement",
-            "children": [
-              {
-                "url": "/feminino",
-                "name": "Camisetas",
-                "@type": "SiteNavigationElement"
-              },
-              {
-                "url": "/feminino",
-                "name": "Camisas",
-                "@type": "SiteNavigationElement"
-              }
-            ]
-          },
-          {
-            "url": "/masculino",
-            "name": "Masculino",
-            "@type": "SiteNavigationElement",
-            "children": [
-              {
-                "url": "/masculino",
-                "name": "Camisetas",
-                "@type": "SiteNavigationElement"
-              },
-              {
-                "url": "/masculino",
-                "name": "Regatas",
-                "@type": "SiteNavigationElement"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "url": "/linktree",
-        "name": "Link Tree",
-        "@type": "SiteNavigationElement"
+        "children": [],
+        "image": [],
+        "name": "Culturas",
+        "url": "/culturas"
       }
     ],
     "__resolveType": "commerce/loaders/navbar.ts"
@@ -3657,9 +3558,42 @@
         ]
       },
       {
+        "__resolveType": "site/sections/Cupom.tsx",
+        "code": "DECO10",
+        "description": "GANHE 10% DE DESCONTO"
+      },
+      {
         "__resolveType": "site/sections/Content/RichText.tsx",
         "text": "<p>Produtos e Experiências:</p><p><br data-mce-bogus=\"1\"></p><p>Culinária Internacional: Uma seção dedicada a ingredientes autênticos, especiarias e receitas tradicionais de diversas culinárias ao redor do mundo. Os clientes podem comprar kits de ingredientes para preparar pratos típicos de diferentes países e também participar de workshops de culinária ao vivo conduzidos por chefs locais.</p><p><br data-mce-bogus=\"1\"></p><p>Artes e Artesanato: Uma coleção de artesanatos únicos, obras de arte e decorações inspiradas em diversas culturas. Isso inclui esculturas, máscaras tribais, pinturas, tecelagens, cerâmicas e outros itens feitos à mão por artistas locais de diferentes partes do mundo.</p><p><br data-mce-bogus=\"1\"></p><p>Moda e Acessórios: Uma variedade de roupas, acessórios e joias inspiradas em estilos tradicionais de diferentes culturas. Isso inclui roupas étnicas, lenços bordados à mão, bolsas de couro artesanais e muito mais, tudo projetado por designers locais que valorizam técnicas de fabricação tradicionais.</p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>",
         "containerWidth": 850
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "Preview site/sections/Theme/Theme.tsx": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "dark",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": 0.95,
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "dark"
+  },
+  "pages-Culturas-591537": {
+    "name": "Culturas",
+    "path": "/culturas",
+    "sections": [
+      {
+        "__resolveType": "Header - 01"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
